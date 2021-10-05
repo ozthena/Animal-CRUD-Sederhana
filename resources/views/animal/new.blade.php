@@ -45,6 +45,7 @@
                 <option selected disabled>Pilih Suara</option>
                 <option>Menggonggong</option>
                 <option>Mengaum</option>
+                <option>Meow</option>
             </select>
             @error('suara')
                 <div class="invalid-feedback">{{ $message }}</div>

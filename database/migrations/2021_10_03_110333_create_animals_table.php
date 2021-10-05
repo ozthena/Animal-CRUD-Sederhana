@@ -19,7 +19,7 @@ class CreateAnimalsTable extends Migration
             $table->text('description');
             $table->integer('usia_rata');
             $table->enum('jmlkaki', ['2', '4']);
-            $table->enum('suara', ['Menggonggong', 'Mengaum']);
+            $table->enum('suara', ['Menggonggong', 'Mengaum', 'Meow']);
             $table->string('gambar');
             $table->timestamps();
         });
